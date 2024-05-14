@@ -135,12 +135,17 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #3882F6;
-    width: 100%;
-    max-width: 850px;
+    padding-top: 100px;
+    height: 100px;
 }
 
 .lowerhero .container-calltoaction {
+    color: white;
+}
+
+.lowerhero p {
+    padding: 0px;
+    margin: 0px;
 }
 
 .lowerhero .signup {
@@ -150,4 +155,23 @@ body {
     border-radius: 5px;
     height: 30px;
     width: 100px;
+}
+
+.banner {
+    background-color: #3882F6;
+    flex-basis: 840px;
+    display: flex;
+    border-radius: 8px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 80px;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
 }
