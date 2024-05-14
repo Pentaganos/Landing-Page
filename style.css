@@ -1,0 +1,153 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+}
+
+.logo {
+    font-size: 24px;
+    flex-basis: 420px;
+    color: #F9FAF8;
+}
+
+.header .right-nav a {
+    text-decoration: none;
+    color: #F9FAF8;
+    margin-right: 10px;
+}
+
+.container-hero {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container-hero H1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.container-hero .text {
+    color: #F9FAF8;
+    flex-basis: 420px;
+    padding-bottom: 10px;
+}
+
+.container-hero p {
+    padding-top: 0px;
+}
+
+.container-hero button {
+    background-color: #3882F6;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    width: 100px;
+    height: 30px;
+}
+
+.container-hero img {
+    width: 420px;
+    flex-shrink: 0;
+    background-color: grey;
+}
+
+.container-middle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-middle h2 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.container-middle img {
+    width: 120px;
+    height: 120px;
+}
+
+.container-middle .card-container {
+    display: flex;
+}
+
+.container-middle .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-container li {
+    list-style: none;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.card img {
+    border: 5px solid #3882F6;
+    border-radius: 5px;
+}
+
+.container-lowermiddle {
+    display: flex;
+    background-color: #E5E7EB;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-lowermiddle .quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 750px;
+}
+
+.container-lowermiddle .signoff {
+    color: #1F2937;
+    font-weight: bolder;
+    display: flex;
+    justify-content: end;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 750px;
+}
+
+.lowerhero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3882F6;
+    width: 100%;
+    max-width: 850px;
+}
+
+.lowerhero .container-calltoaction {
+}
+
+.lowerhero .signup {
+    background-color: #3882F6;
+    border: 2px solid white;
+    color: white;
+    border-radius: 5px;
+    height: 30px;
+    width: 100px;
+}
